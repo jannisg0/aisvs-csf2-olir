@@ -1,0 +1,79 @@
+cff-version: 1.2.0
+message: "If you use this mapping, please cite it as below."
+type: dataset
+title: "OWASP-AISVS-v1.01-to-CSF-v2.0"
+abstract: >-
+  Supportive relationship mapping (NIST IR 8477) of the NIST Cybersecurity
+  Framework (CSF) 2.0 Core to the requirements of the OWASP Artificial
+  Intelligence Security Verification Standard (AISVS) v1.01, prepared with the
+  NIST OLIR template for CSF 2.0. Screened by NIST for the National Online
+  Informative References (OLIR) Program. Independent work, not an official
+  OWASP mapping.
+version: 1.0.0
+doi: 10.5281/zenodo.23777315
+date-released: 2026-11-05
+license: CC-BY-SA-4.0
+authors:
+  - family-names: Groth
+    given-names: Jannis
+    orcid: "https://orcid.org/0009-0006-0307-4883"
+repository-code: "https://github.com/jannisg0/aisvs-csf2-olir"
+url: "https://doi.org/10.5281/zenodo.23777315"
+keywords:
+  - NIST OLIR
+  - NIST Cybersecurity Framework 2.0
+  - NIST CSF 2.0
+  - OWASP AISVS
+  - AI security
+  - Informative References
+  - framework mapping
+references:
+  - type: standard
+    title: "Artificial Intelligence Security Verification Standard (AISVS)"
+    version: "1.01"
+    year: 2026
+    authors:
+      - name: "OWASP Foundation"
+    notes: "Prepared by the OWASP AISVS Project Team. Licensed under CC BY-SA 4.0."
+    url: "https://github.com/OWASP/AISVS/tree/main/1.01"
+  - type: standard
+    title: "The NIST Cybersecurity Framework (CSF) 2.0"
+    number: "NIST CSWP 29"
+    year: 2024
+    authors:
+      - name: "National Institute of Standards and Technology"
+    doi: "10.6028/NIST.CSWP.29"
+  - type: report
+    title: "Mapping Relationships Between Documentary Standards, Regulations, Frameworks, and Guidelines: Developing Cybersecurity and Privacy Concept Mappings"
+    number: "NIST IR 8477"
+    year: 2024
+    authors:
+      - family-names: Scarfone
+        given-names: Karen
+      - family-names: Souppaya
+        given-names: Murugiah
+      - family-names: Fagan
+        given-names: Michael
+    institution:
+      name: "National Institute of Standards and Technology"
+    doi: "10.6028/NIST.IR.8477"
+  - type: report
+    title: "National Online Informative References (OLIR) Program: Submission Guidance for OLIR Developers"
+    number: "NIST IR 8278A Rev. 1"
+    year: 2024
+    authors:
+      - family-names: Barrett
+        given-names: Matthew
+      - family-names: Keller
+        given-names: Nicole
+      - family-names: Quinn
+        given-names: Stephen
+      - family-names: Smith
+        given-names: Matthew C.
+      - family-names: Scarfone
+        given-names: Karen
+      - family-names: Johnson
+        given-names: Vincent
+    institution:
+      name: "National Institute of Standards and Technology"
+    doi: "10.6028/NIST.IR.8278Ar1"
